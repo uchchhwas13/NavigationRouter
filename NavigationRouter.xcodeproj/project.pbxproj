@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0CFE86A29DC379D00A08D11 /* NavigationRouterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CFE86929DC379D00A08D11 /* NavigationRouterApp.swift */; };
+		A0CFE86C29DC379D00A08D11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CFE86B29DC379D00A08D11 /* ContentView.swift */; };
+		A0CFE86E29DC379E00A08D11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0CFE86D29DC379E00A08D11 /* Assets.xcassets */; };
+		A0CFE87229DC379E00A08D11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0CFE87129DC379E00A08D11 /* Preview Assets.xcassets */; };
+		A0CFE87C29DC379E00A08D11 /* NavigationRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CFE87B29DC379E00A08D11 /* NavigationRouterTests.swift */; };
+		A0CFE88629DC379E00A08D11 /* NavigationRouterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CFE88529DC379E00A08D11 /* NavigationRouterUITests.swift */; };
+		A0CFE88829DC379E00A08D11 /* NavigationRouterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CFE88729DC379E00A08D11 /* NavigationRouterUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0CFE87829DC379E00A08D11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0CFE85E29DC379D00A08D11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0CFE86529DC379D00A08D11;
+			remoteInfo = NavigationRouter;
+		};
+		A0CFE88229DC379E00A08D11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0CFE85E29DC379D00A08D11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0CFE86529DC379D00A08D11;
+			remoteInfo = NavigationRouter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A0CFE86629DC379D00A08D11 /* NavigationRouter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationRouter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0CFE86929DC379D00A08D11 /* NavigationRouterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationRouterApp.swift; sourceTree = "<group>"; };
+		A0CFE86B29DC379D00A08D11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A0CFE86D29DC379E00A08D11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0CFE86F29DC379E00A08D11 /* NavigationRouter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NavigationRouter.entitlements; sourceTree = "<group>"; };
+		A0CFE87129DC379E00A08D11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A0CFE87729DC379E00A08D11 /* NavigationRouterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationRouterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0CFE87B29DC379E00A08D11 /* NavigationRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationRouterTests.swift; sourceTree = "<group>"; };
+		A0CFE88129DC379E00A08D11 /* NavigationRouterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationRouterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0CFE88529DC379E00A08D11 /* NavigationRouterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationRouterUITests.swift; sourceTree = "<group>"; };
+		A0CFE88729DC379E00A08D11 /* NavigationRouterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationRouterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0CFE86329DC379D00A08D11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CFE87429DC379E00A08D11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CFE87E29DC379E00A08D11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0CFE85D29DC379D00A08D11 = {
+			isa = PBXGroup;
+			children = (
+				A0CFE86829DC379D00A08D11 /* NavigationRouter */,
+				A0CFE87A29DC379E00A08D11 /* NavigationRouterTests */,
+				A0CFE88429DC379E00A08D11 /* NavigationRouterUITests */,
+				A0CFE86729DC379D00A08D11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0CFE86729DC379D00A08D11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0CFE86629DC379D00A08D11 /* NavigationRouter.app */,
+				A0CFE87729DC379E00A08D11 /* NavigationRouterTests.xctest */,
+				A0CFE88129DC379E00A08D11 /* NavigationRouterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0CFE86829DC379D00A08D11 /* NavigationRouter */ = {
+			isa = PBXGroup;
+			children = (
+				A0CFE86929DC379D00A08D11 /* NavigationRouterApp.swift */,
+				A0CFE86B29DC379D00A08D11 /* ContentView.swift */,
+				A0CFE86D29DC379E00A08D11 /* Assets.xcassets */,
+				A0CFE86F29DC379E00A08D11 /* NavigationRouter.entitlements */,
+				A0CFE87029DC379E00A08D11 /* Preview Content */,
+			);
+			path = NavigationRouter;
+			sourceTree = "<group>";
+		};
+		A0CFE87029DC379E00A08D11 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A0CFE87129DC379E00A08D11 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A0CFE87A29DC379E00A08D11 /* NavigationRouterTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0CFE87B29DC379E00A08D11 /* NavigationRouterTests.swift */,
+			);
+			path = NavigationRouterTests;
+			sourceTree = "<group>";
+		};
+		A0CFE88429DC379E00A08D11 /* NavigationRouterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A0CFE88529DC379E00A08D11 /* NavigationRouterUITests.swift */,
+				A0CFE88729DC379E00A08D11 /* NavigationRouterUITestsLaunchTests.swift */,
+			);
+			path = NavigationRouterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0CFE86529DC379D00A08D11 /* NavigationRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0CFE88B29DC379E00A08D11 /* Build configuration list for PBXNativeTarget "NavigationRouter" */;
+			buildPhases = (
+				A0CFE86229DC379D00A08D11 /* Sources */,
+				A0CFE86329DC379D00A08D11 /* Frameworks */,
+				A0CFE86429DC379D00A08D11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NavigationRouter;
+			productName = NavigationRouter;
+			productReference = A0CFE86629DC379D00A08D11 /* NavigationRouter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0CFE87629DC379E00A08D11 /* NavigationRouterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0CFE88E29DC379E00A08D11 /* Build configuration list for PBXNativeTarget "NavigationRouterTests" */;
+			buildPhases = (
+				A0CFE87329DC379E00A08D11 /* Sources */,
+				A0CFE87429DC379E00A08D11 /* Frameworks */,
+				A0CFE87529DC379E00A08D11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0CFE87929DC379E00A08D11 /* PBXTargetDependency */,
+			);
+			name = NavigationRouterTests;
+			productName = NavigationRouterTests;
+			productReference = A0CFE87729DC379E00A08D11 /* NavigationRouterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A0CFE88029DC379E00A08D11 /* NavigationRouterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0CFE89129DC379E00A08D11 /* Build configuration list for PBXNativeTarget "NavigationRouterUITests" */;
+			buildPhases = (
+				A0CFE87D29DC379E00A08D11 /* Sources */,
+				A0CFE87E29DC379E00A08D11 /* Frameworks */,
+				A0CFE87F29DC379E00A08D11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0CFE88329DC379E00A08D11 /* PBXTargetDependency */,
+			);
+			name = NavigationRouterUITests;
+			productName = NavigationRouterUITests;
+			productReference = A0CFE88129DC379E00A08D11 /* NavigationRouterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0CFE85E29DC379D00A08D11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					A0CFE86529DC379D00A08D11 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					A0CFE87629DC379E00A08D11 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A0CFE86529DC379D00A08D11;
+					};
+					A0CFE88029DC379E00A08D11 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A0CFE86529DC379D00A08D11;
+					};
+				};
+			};
+			buildConfigurationList = A0CFE86129DC379D00A08D11 /* Build configuration list for PBXProject "NavigationRouter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0CFE85D29DC379D00A08D11;
+			productRefGroup = A0CFE86729DC379D00A08D11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0CFE86529DC379D00A08D11 /* NavigationRouter */,
+				A0CFE87629DC379E00A08D11 /* NavigationRouterTests */,
+				A0CFE88029DC379E00A08D11 /* NavigationRouterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0CFE86429DC379D00A08D11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0CFE87229DC379E00A08D11 /* Preview Assets.xcassets in Resources */,
+				A0CFE86E29DC379E00A08D11 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CFE87529DC379E00A08D11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CFE87F29DC379E00A08D11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0CFE86229DC379D00A08D11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0CFE86C29DC379D00A08D11 /* ContentView.swift in Sources */,
+				A0CFE86A29DC379D00A08D11 /* NavigationRouterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CFE87329DC379E00A08D11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0CFE87C29DC379E00A08D11 /* NavigationRouterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CFE87D29DC379E00A08D11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0CFE88629DC379E00A08D11 /* NavigationRouterUITests.swift in Sources */,
+				A0CFE88829DC379E00A08D11 /* NavigationRouterUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0CFE87929DC379E00A08D11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0CFE86529DC379D00A08D11 /* NavigationRouter */;
+			targetProxy = A0CFE87829DC379E00A08D11 /* PBXContainerItemProxy */;
+		};
+		A0CFE88329DC379E00A08D11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0CFE86529DC379D00A08D11 /* NavigationRouter */;
+			targetProxy = A0CFE88229DC379E00A08D11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A0CFE88929DC379E00A08D11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A0CFE88A29DC379E00A08D11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A0CFE88C29DC379E00A08D11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NavigationRouter/NavigationRouter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NavigationRouter/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cefalo.NavigationRouter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0CFE88D29DC379E00A08D11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NavigationRouter/NavigationRouter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NavigationRouter/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cefalo.NavigationRouter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A0CFE88F29DC379E00A08D11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cefalo.NavigationRouterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NavigationRouter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NavigationRouter";
+			};
+			name = Debug;
+		};
+		A0CFE89029DC379E00A08D11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cefalo.NavigationRouterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NavigationRouter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NavigationRouter";
+			};
+			name = Release;
+		};
+		A0CFE89229DC379E00A08D11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cefalo.NavigationRouterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NavigationRouter;
+			};
+			name = Debug;
+		};
+		A0CFE89329DC379E00A08D11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cefalo.NavigationRouterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NavigationRouter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0CFE86129DC379D00A08D11 /* Build configuration list for PBXProject "NavigationRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0CFE88929DC379E00A08D11 /* Debug */,
+				A0CFE88A29DC379E00A08D11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0CFE88B29DC379E00A08D11 /* Build configuration list for PBXNativeTarget "NavigationRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0CFE88C29DC379E00A08D11 /* Debug */,
+				A0CFE88D29DC379E00A08D11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0CFE88E29DC379E00A08D11 /* Build configuration list for PBXNativeTarget "NavigationRouterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0CFE88F29DC379E00A08D11 /* Debug */,
+				A0CFE89029DC379E00A08D11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0CFE89129DC379E00A08D11 /* Build configuration list for PBXNativeTarget "NavigationRouterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0CFE89229DC379E00A08D11 /* Debug */,
+				A0CFE89329DC379E00A08D11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0CFE85E29DC379D00A08D11 /* Project object */;
+}
