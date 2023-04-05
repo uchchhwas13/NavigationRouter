@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A0C090C329DD408F00D521F3 /* NavigationViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C090C229DD408F00D521F3 /* NavigationViewDemo.swift */; };
+		A0C090C529DD626D00D521F3 /* ContentViewNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C090C429DD626D00D521F3 /* ContentViewNavigation.swift */; };
+		A0C090C729DD62E700D521F3 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C090C629DD62E700D521F3 /* Person.swift */; };
+		A0C090C929DD631700D521F3 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C090C829DD631700D521F3 /* Article.swift */; };
 		A0CFE86A29DC379D00A08D11 /* NavigationRouterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CFE86929DC379D00A08D11 /* NavigationRouterApp.swift */; };
 		A0CFE86C29DC379D00A08D11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CFE86B29DC379D00A08D11 /* ContentView.swift */; };
 		A0CFE86E29DC379E00A08D11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0CFE86D29DC379E00A08D11 /* Assets.xcassets */; };
@@ -14,6 +18,10 @@
 		A0CFE87C29DC379E00A08D11 /* NavigationRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CFE87B29DC379E00A08D11 /* NavigationRouterTests.swift */; };
 		A0CFE88629DC379E00A08D11 /* NavigationRouterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CFE88529DC379E00A08D11 /* NavigationRouterUITests.swift */; };
 		A0CFE88829DC379E00A08D11 /* NavigationRouterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CFE88729DC379E00A08D11 /* NavigationRouterUITestsLaunchTests.swift */; };
+		A0CFE89529DC38DB00A08D11 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CFE89429DC38DB00A08D11 /* HomeView.swift */; };
+		A0CFE89729DC3B4B00A08D11 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CFE89629DC3B4B00A08D11 /* SettingsView.swift */; };
+		A0CFE89929DC3DF600A08D11 /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CFE89829DC3DF600A08D11 /* FriendsView.swift */; };
+		A0CFE89B29DC3E5000A08D11 /* ImagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CFE89A29DC3E5000A08D11 /* ImagesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A0C090C229DD408F00D521F3 /* NavigationViewDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewDemo.swift; sourceTree = "<group>"; };
+		A0C090C429DD626D00D521F3 /* ContentViewNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewNavigation.swift; sourceTree = "<group>"; };
+		A0C090C629DD62E700D521F3 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		A0C090C829DD631700D521F3 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		A0CFE86629DC379D00A08D11 /* NavigationRouter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationRouter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0CFE86929DC379D00A08D11 /* NavigationRouterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationRouterApp.swift; sourceTree = "<group>"; };
 		A0CFE86B29DC379D00A08D11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +57,10 @@
 		A0CFE88129DC379E00A08D11 /* NavigationRouterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationRouterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0CFE88529DC379E00A08D11 /* NavigationRouterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationRouterUITests.swift; sourceTree = "<group>"; };
 		A0CFE88729DC379E00A08D11 /* NavigationRouterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationRouterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A0CFE89429DC38DB00A08D11 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A0CFE89629DC3B4B00A08D11 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A0CFE89829DC3DF600A08D11 /* FriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsView.swift; sourceTree = "<group>"; };
+		A0CFE89A29DC3E5000A08D11 /* ImagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +112,15 @@
 			isa = PBXGroup;
 			children = (
 				A0CFE86929DC379D00A08D11 /* NavigationRouterApp.swift */,
+				A0C090C229DD408F00D521F3 /* NavigationViewDemo.swift */,
 				A0CFE86B29DC379D00A08D11 /* ContentView.swift */,
+				A0C090C429DD626D00D521F3 /* ContentViewNavigation.swift */,
+				A0C090C629DD62E700D521F3 /* Person.swift */,
+				A0C090C829DD631700D521F3 /* Article.swift */,
+				A0CFE89A29DC3E5000A08D11 /* ImagesView.swift */,
+				A0CFE89829DC3DF600A08D11 /* FriendsView.swift */,
+				A0CFE89629DC3B4B00A08D11 /* SettingsView.swift */,
+				A0CFE89429DC38DB00A08D11 /* HomeView.swift */,
 				A0CFE86D29DC379E00A08D11 /* Assets.xcassets */,
 				A0CFE86F29DC379E00A08D11 /* NavigationRouter.entitlements */,
 				A0CFE87029DC379E00A08D11 /* Preview Content */,
@@ -259,6 +283,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0CFE89929DC3DF600A08D11 /* FriendsView.swift in Sources */,
+				A0CFE89529DC38DB00A08D11 /* HomeView.swift in Sources */,
+				A0CFE89B29DC3E5000A08D11 /* ImagesView.swift in Sources */,
+				A0C090C529DD626D00D521F3 /* ContentViewNavigation.swift in Sources */,
+				A0C090C929DD631700D521F3 /* Article.swift in Sources */,
+				A0CFE89729DC3B4B00A08D11 /* SettingsView.swift in Sources */,
+				A0C090C329DD408F00D521F3 /* NavigationViewDemo.swift in Sources */,
+				A0C090C729DD62E700D521F3 /* Person.swift in Sources */,
 				A0CFE86C29DC379D00A08D11 /* ContentView.swift in Sources */,
 				A0CFE86A29DC379D00A08D11 /* NavigationRouterApp.swift in Sources */,
 			);

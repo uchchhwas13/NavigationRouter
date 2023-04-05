@@ -6,16 +6,49 @@
 //
 
 import SwiftUI
+enum ViewRouter {
+    case home
+    case friends
+    case images
+    
+    func next() -> ViewRouter {
+           switch self {
+           case .home: return .friends
+           case .friends: return .images
+           case .images: return self
+           }
+       }
+       
+       func previous() -> ViewRouter {
+           switch self {
+           case .home: return self
+           case .friends: return .home
+           case .images: return .friends
+           }
+       }
+}
 
 struct ContentView: View {
+    
+    @State private var page: ViewRouter = ViewRouter.home
+    @State private var showSettings: Bool = false
+    
     var body: some View {
+        
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            switch page {
+            case .home:
+                HomeView(page: $page, $showSettings)
+            case .friends:
+                FriendsView(page: $page, $showSettings)
+            case .images:
+                ImagesView(page: $page, $showSettings)
+            }
         }
-        .padding()
+        .sheet(isPresented: $showSettings, content: {
+            SettingsView(page: $page)
+        })
+        
     }
 }
 

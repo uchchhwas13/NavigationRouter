@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct NavigationRouterApp: App {
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationViewDemo()
         }
     }
 }
